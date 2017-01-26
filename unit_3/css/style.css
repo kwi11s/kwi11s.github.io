@@ -1,26 +1,73 @@
 body	{
-	background: url(img_2.jpg);
+	background: url(IMG_6215.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
 	font-family: Helvetica, sans-serif;
+	font-size: 14px;
 
 }
 
-.profile-img{
-	opacity: 1;
-	max-height: 200px;
-	max-width: 200px;
+.profile-img	{
+	border-radius: 50%;
+	border-style: solid;
+	border-color: darkslategray;
+	border-width: 2px;
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin-left: 250px; 
+	margin-right: 20px; 
 }
 
-h1 {
+h1	{
 	color: #067778;
+	font-size: 40px;
+	text-align: left;
+	margin-left: 600px;
+	margin-right: 300px;
+	margin-top:100px;
+
+
+
 }
 
-p {
-	color: darkgray;
+p.intro {
+	color: black;
+	font-size: 22px;
+	text-align: left;
+	margin-left: 600px;
+	margin-right: 300px;
 }
 
-img { width: 200px;
+
+a {
+	color: gray;
+	text-decoration: none;
 }
+
+.button	{
+	float: left;
+	background-color: rgba(255,255,255,0.5);
+	font-size: 18px;
+	color: #067778; 
+	border-style: solid;
+	border-color: darkslategray;
+	border-width: 3px;
+	padding: 5px;
+	margin: 10px
+
+}
+
+.page-footer {
+	background-color: gray;
+	position: fixed;
+ 	bottom:0;
+ 	left:0;
+ 	right: 0;
+ 	color: black;
+	text-align: center;	
+
+}
+
