@@ -1,0 +1,26 @@
+body	{
+	background: url(img_2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: Helvetica, sans-serif;
+
+}
+
+.profile-img{
+	opacity: 1;
+	max-height: 200px;
+	max-width: 200px;
+}
+
+h1 {
+	color: #067778;
+}
+
+p {
+	color: darkgray;
+}
+
+img { width: 200px;
+}
