@@ -2,7 +2,7 @@
 
 body	{
 	
-	background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(IMG_6215.jpg);
+	background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(../images/img_6215.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
