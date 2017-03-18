@@ -4,42 +4,33 @@ body	{
 	font-family: 'Droid Serif', serif;
 	font-size: 20px;
 	text-align: center;
-	color: #191919; 
-
+	font-color: #191919; 
 }
 
 header{
-	padding: 150px;
+	padding: 3.5em;
 }
 
-nav {
-	padding: 10px;
-	background-color: #067778;
-	margin: 0;
-}
-
-h1	{
-	color: #067778;
+h1, h2	{
 	font-family: 'Poppins', sans-serif;
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}
+
+h1 {
 	font-size: 3em;
-	-webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
-
+	color: #067778;
 }
-h2	{
-	font-family: 'Poppins', sans-serif;
-	font-size: 2em;
-	-webkit-margin-before: 0em;
-    -webkit-margin-after: 0em;
 
+h2	{
+	font-size: 2em;
 }
 
 article {
-	padding: 20px;
+	padding: 1em;
 }
 
 p {
-	font-size: 1em;
 	line-height: 1.5em;
 	width: 30em;
 	margin: 2em auto;
@@ -52,9 +43,8 @@ a {
 	color: #191919;
 }
 
-a:visited {
+a:hover {
 	color: gray;
-
 }
 
 hr	{	
@@ -81,26 +71,9 @@ footer {
 	text-align: center;
 }*/
 
-/*.profile-img	{
-	border-radius: 50%;
-	border-style: solid;
-	border-color: darkslategray;
-	border-width: 2px;
-	height: 300px;
-	width: 300px;
+.wrapper {
+	width: 100%;
 }
-*/
-.button	{
-	background-color: rgba(255,255,255,0.5);
-	font-size: 1em;
-	color: #067778; 
-	border-style: solid;
-	border-color: darkslategray;
-	border-width: 3px;
-	padding: 5px;
-
-}
-
 .clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -110,16 +83,12 @@ footer {
 	height: 0;
 }
 
-.contact{
-	text-decoration: none;
-	border-bottom: none;
-	padding-bottom: 1px;
-	color: #191919; 
-
+#hr-intro {	
+	width: 20em;
 }
 
 #intro {
-	background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)),url(../images/img_6215.jpg);
+	background: linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.6)),url(../images/img_6215.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -127,33 +96,27 @@ footer {
 	height: 80vh;
 }
 
-#two_column {
-	padding: 20px;
-	background-color: #067778;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-}
-
-#left {
-	padding: 20px;
+#profile-img {
+	border-radius: 50%;
+	height: 15em;
+	width: 15em;
 	float: left;
-	width: 46%;
+	margin: 1.5em 0em 0em 13em; 
 }
 
-#right {
-	padding: 20px;
-	float: right;
-	width: 46%;
+#bio {
+	float: right; 
+	margin: 3em 13em 0 0;
+	width: 20em; 
 }
 
-/*#wrapper {
-	width: 92%;
-	margin: 2em auto;
-}*/
+#contact{
+	padding: 1em;
+	background-color: #7F7B79;
+}
 
 #work {
 	clear:both;
+	background-color: #067778;
 }
 
