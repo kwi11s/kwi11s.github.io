@@ -65,8 +65,8 @@ list-style-type: none;
 }
 
 .social-img {
-	height: auto;
-	width: auto;
+	height: 7.5em;
+	width: 7.5em;
 }
 
 #hr-intro {	
@@ -162,6 +162,11 @@ list-style-type: none;
 	width: 60%;
 	margin: 3em auto; 
 	}
+
+	.social-img {
+	height: 5em;
+	width: 5em;
+}
 }
 
 @media only screen and (max-width: 500px) {
@@ -198,8 +203,8 @@ list-style-type: none;
 	}
 
 	.social-img {
-	height: 30%;
-	width: 30%;
+	height: 5em;
+	width: 5em;
 }
 }
 
